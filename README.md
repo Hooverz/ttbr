@@ -1,1 +1,1 @@
-<font size="30"><b>Trapstep Brazil - OFICIAL</b></font>
+<font size="60"><b>Trapstep Brazil - OFICIAL</b></font>
