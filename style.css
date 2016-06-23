@@ -1,0 +1,276 @@
+#user-lists .list.staff .group {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
+}
+/* me chat effect [By: Wolf] */
+#chat-messages .cm.emote.id-[6450433]{
+    text-shadow: 0 0 10px #0000FF;
+    color: #00FFFF;
+}
+/*
+body {
+    font-family: "Sans-serif",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background: #000 none repeat scroll 0% 0%;
+    color: #1EDAE1;
+}*/
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+.icon-site-logo { 
+    background: url('http://i.imgur.com/i6ihyi4.png') repeat scroll 0% 0% transparent;
+    background-position: 0px 0px; 
+} 
+#playlist-button, #app-header {
+    background: transparent linear-gradient(to bottom, rgba(50, 10, 150, 0.25) 0px, rgba(50, 50, 200, 1.75) 100%) repeat scroll 0% 0%;
+}
+#store-button {
+    background: linear-gradient(to bottom,#FF0000 0,#A00000 100%);
+}
+#plug-dj {
+    background: linear-gradient(to bottom,#0268AC 0,#02225C 100%);
+}
+.header-panel-button.selected {
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(255, 255, 255, 0.06) 100%);
+}
+#plug-menu {
+    background: rgba(40, 44, 53, 0.94) !important;
+}
+#plug-menu .legal {
+    background: rgba(68, 74, 89, 0.46) !important;
+}
+#settings {
+    background: rgba(10, 10, 10, 0.89) !important;
+}
+#user-lists .list .user:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.27) 100%) !important;
+}
+#waitlist .list .user {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.13) 100%) !important;
+}
+.app-right .friends {
+    background: none !important;
+}
+#settings .header {
+    background: rgba(28, 31, 37, 0.78) !important;
+}
+@media (max-width: 1600px) {
+    #room .app-right {
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.70) 0,rgba(0, 0, 0, 1) 100%);
+    }
+}
+#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+    background-color: rgba(17, 19, 23, 0.32);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.25s;
+}
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.25s;
+}
+#chat .mention {
+    font-weight: 700;
+    /*padding-left: 25px;*/
+    border-left: #7681FF 3px solid;
+}
+#chat .emote .from {
+     color: #ac76ff !important;
+}
+#footer-user .info .bar .progress
+{
+     color: rgba(50, 200, 180, 0.9);
+}
+#chat .emote {
+    border-left: rgba(174, 69, 189, 1) 3px solid !important;
+    background-color: rgba(76, 93, 119, 0.22) !important;
+}
+#chat-messages .emote .icon {
+    /*left: 4px;*/
+}
+#chat .emote .text {
+    font-style: normal;
+    font-weight: bold;
+    color: #ac76ff;
+}
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+/*
+#playlist-button {
+    background: linear-gradient(to bottom,#FF5CDE 0,#5700FF 100%);
+}*/
+.social-menu .icon-twitter,.social-menu .icon-facebook {
+    opacity: 1;
+}
+#playlist-panel {
+    background: rgba(17, 19, 23, 0.9);
+}
+#playlist-menu {
+    background: rgba(28, 31, 37, 0.67);
+}
+#search {
+    background: rgba(50, 55, 66, 0.58);
+}
+#search-bar {
+    background: rgba(17, 19, 23, 0.77);
+}
+#filter-bar {
+    background: rgba(17, 19, 23, 0.77);
+}
+#playlist-edit-button {
+    background: rgba(85, 93, 112, 0.75);
+}
+#playlist-shuffle-button {
+    background: rgba(68, 74, 89, 0.75);
+}
+#playlist-delete-button {
+    background: rgba(50, 55, 66, 0.75);
+}
+#user-panel .score {
+    background: rgba(28, 31, 37, 0.59);
+}
+
+/*#dj-button.is-quit .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-leave .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-wait .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-locked .left {
+border-left: 3px solid #734ba9;
+}
+#dj-button.is-full .left {
+border-left: 3px solid #CCCCCC;
+}*/
+/* Thanks to Wolf for the dj button animation*/
+#dj-button
+{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
+    background: #222224;
+}
+#dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left, #dj-button.is-join .left{
+background: #121214;
+border-radius: 8px;
+border-left-width: 4px;
+}
+#dj-button.is-quit .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-quit:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+}
+#dj-button.is-leave .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-leave:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+}
+#dj-button.is-wait .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-wait:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+}
+#dj-button.is-locked .left {
+border-left: 3px solid #734ba9;
+}
+#dj-button.is-locked:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+}
+#dj-button.is-full .left {
+border-left: 3px solid #CCCCCC;
+}
+#dj-button.is-join .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-join:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+}
+#dj-button {
+background: #222224;
+border-radius: 8px;
+}
+ 
+/* me chat effect [By: Wolf] */
+#chat-messages .cm.emote.id-[6450433]{
+    text-shadow: 0 0 10px #0000FF;
+    color: #00FFFF;
+}
+#vote .crowd-response {
+background: #222224;
+}
+#woot .bottom, #woot.selected {
+background: #90ad2f;
+}
+#grab .bottom, #grab.selected {
+background: #aa74ff;
+}
+#meh .bottom, #meh.selected {
+background: #c42e3b;
+}
+.row:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
+}
+#chat .mention .msg {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
+}
+#user-lists .list.room .user .icon-meh {
+    top: -1px !important;
+    right: 8px !important;
+    left: auto !important;
+}
+
+#user-lists .list.room .user .icon-grab {
+    right: 35px !important;
+}
+/*
+[data-cid^="6450433-"] span.un.clickable {
+    color: #FFFFFF!important;
+}
+/*Bot*/
+[data-cid^="6450433-"] .msg .from .icon-chat-manager {
+    background: url("https://cloud.githubusercontent.com/assets/8460503/9035556/b7b00d88-39e1-11e5-9e37-634c73d12a2d.png")!important;
+}
+[data-cid^="6450433-"]   .badge-box .bdg { 
+    background-image: url("https://cloud.githubusercontent.com/assets/8460503/9075705/9c20b424-3b20-11e5-98b6-df932a866543.jpg") !important;
+    background-position: 0px 0px;
+}
+/*Hooverz*/
+[data-cid^="5565914-"]   .badge-box .bdg { 
+    background-image: url("http://i.imgur.com/k4ujMVh.gif") !important;
+    background-position: 0px 0px;
+}
